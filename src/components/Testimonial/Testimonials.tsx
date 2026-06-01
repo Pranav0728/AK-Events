@@ -122,7 +122,7 @@ function Testimonials() {
           </div>
 
           {/* Call to Action */}
-          <div className="mt-32 text-center animate-fade-in">
+          {/* <div className="mt-32 text-center animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-50 border border-violet-100 mb-8">
               <Sparkles className="w-4 h-4 text-violet-500" />
               <span className="text-xs font-bold text-violet-600 uppercase tracking-widest">Your Turn Next</span>
@@ -133,7 +133,7 @@ function Testimonials() {
             <button className="px-12 py-5 bg-violet-600 text-white rounded-full font-bold text-lg shadow-xl shadow-violet-200 hover:bg-violet-700 transition-all hover:scale-105 active:scale-95">
               Book Your Consultation
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -55,7 +55,7 @@ const Gallery = () => {
               </div>
 
               {/* Premium Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-violet-950/90 via-violet-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-violet-950/90 via-violet-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
                 <div className="absolute inset-x-0 bottom-0 p-10 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
                   <div className="flex items-center gap-2 mb-3">
                     <span className="w-8 h-px bg-violet-400" />
@@ -70,7 +70,7 @@ const Gallery = () => {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
               
               {/* Corner Accent */}
               <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
