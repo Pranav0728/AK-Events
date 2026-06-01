@@ -6,35 +6,127 @@ const GalleryPics = () => {
   // Define gallery images for AK Events with updated content
   const images = [
     {
-      url: "/General/slide1.jpg",
+      url: "/Gallery/img1.jpg",
       alt: "Luxury Floral Wedding Arch",
-      category: "Wedding Decor",
+      category: "Birthday",
     },
     {
-      url: "/General/slide2.jpg",
+      url: "/Gallery/img2.jpg",
       alt: "Grand Entrance Lighting",
-      category: "Reception",
+      category: "Birthday",
     },
     {
-      url: "/General/slide3.jpg",
+      url: "/Gallery/img3.jpg",
       alt: "Theme Based Birthday Setup",
       category: "Birthday",
     },
     {
-      url: "/General/slide1.jpg",
+      url: "/Gallery/img4.jpg",
       alt: "Traditional Haldi Ceremony",
-      category: "Haldi/Sangeet",
+      category: "Birthday",
     },
     {
-      url: "/General/slide2.jpg",
+      url: "/Gallery/img5.jpg",
       alt: "Elegant Table Setting",
-      category: "Engagement",
+      category: "Birthday",
     },
     {
-      url: "/General/slide3.jpg",
+      url: "/Gallery/img6.jpg",
       alt: "Custom Stage Backdrop",
-      category: "Stage Design",
+      category: "Birthday",
     },
+    {
+      url: "/Gallery/img7.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img8.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img9.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img10.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img11.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img12.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img13.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img14.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img15.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img16.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img17.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img18.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    
+    {
+      url: "/Gallery/img20.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img21.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img22.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img23.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img24.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+    {
+      url: "/Gallery/img25.jpg",
+      alt: "Wedding Decor",
+      category: "Birthday",
+    },
+
   ];
 
   return (
@@ -82,7 +174,7 @@ const GalleryPics = () => {
 
               {/* Premium Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-violet-950/90 via-violet-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
-                <div className="absolute inset-x-0 bottom-0 p-10 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+                {/* <div className="absolute inset-x-0 bottom-0 p-10 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
                   <div className="flex items-center gap-2 mb-3">
                     <span className="w-8 h-px bg-violet-400" />
                     <span className="text-xs font-bold uppercase tracking-[0.2em] text-violet-300">
@@ -97,7 +189,7 @@ const GalleryPics = () => {
                       <Star key={i} className="w-3 h-3 fill-current" />
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* Corner Accent */}

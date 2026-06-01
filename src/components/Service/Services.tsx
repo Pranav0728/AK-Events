@@ -40,22 +40,22 @@ const servicesList = [
     category: "Interactive"
   },
   {
-    title: "Unique Backdrop",
-    desc: "Bespoke stage designs and unique backdrops tailored to your event theme.",
-    image: "/General/slide1.jpg",
+    title: "Baby Shower cradle",
+    desc: "Special decorations and activities for your baby shower to make it a unique and memorable event.",
+       image: "/General/slide1.jpg",
     category: "Decoration"
   },
   {
-    title: "Live Entertainment",
-    desc: "Magic shows, Tattoo artists, Caricature, and Bubble shows for all ages.",
+    title:"Name Ceremony cradle",
+    desc:"Special decorations and activities for your name ceremony to make it a unique and memorable event.",
     image: "/General/slide2.jpg",
-    category: "Artist"
+    category: "Decoration"
   },
   {
-    title: "Performance Acts",
-    desc: "Juggler shows, Jumping castles, and professional Game hosts for non-stop fun.",
+    title:"Karpet Layout",
+    desc:"Special decorations and activities for your karpet layout to make it a unique and memorable event.",
     image: "/General/slide3.jpg",
-    category: "Entertainment"
+    category: "Decoration"
   }
 ];
 
@@ -64,7 +64,6 @@ function Services() {
     <div className="min-h-screen bg-white font-sans selection:bg-violet-100 selection:text-violet-900">
 
       
-
       {/* Services Grid */}
       <section className="py-24 relative z-10 -mt-20">
         <div className="max-w-7xl mx-auto px-6">
@@ -119,7 +118,7 @@ function Services() {
               <h2 className="text-3xl font-serif text-gray-900 mb-12 text-center">More <em className="italic text-violet-600">Exclusive</em> Services</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-12">
                 {[
-                  "Banner Design", "Welcome Board", "Karpet Layout", "Bubble Show",
+                  "Banner Design", "Welcome Board", "Performance", "Bubble Show",
                   "Juggler Show", "Jumping Castle", "Game Host", "Tattoo Artist"
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 group/item">
