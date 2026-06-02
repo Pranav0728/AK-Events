@@ -6,55 +6,73 @@ const servicesList = [
   {
     title: "Ring Decoration",
     desc: "Elegant and modern ring setups perfect for engagements and photo opportunities.",
-    image: "/General/slide1.jpg",
+    image: "/Services/ring.jpg",
     category: "Decoration"
   },
   {
     title: "DJ Sound & Artist",
     desc: "Professional sound systems and talented artists to keep your party alive all night.",
-    image: "/General/slide2.jpg",
+    image: "/Services/dj.jpeg",
     category: "Entertainment"
   },
   {
     title: "Cinematic Lighting",
     desc: "Custom LED and ambient lighting to set the perfect mood for your celebration.",
-    image: "/General/slide3.jpg",
+    image: "/Services/lighting.jpeg",
     category: "Atmosphere"
   },
   {
     title: "Grand Entry Gate",
     desc: "Beautifully designed welcome boards and entry gates that make a lasting first impression.",
-    image: "/General/slide1.jpg",
+    image: "/Services/entry3.jpg",
     category: "Decoration"
   },
   {
     title: "Special Entries",
     desc: "Make a statement with Smoke, Pyro, or Car entries for that magical touch.",
-    image: "/General/slide2.jpg",
+    image: "/Services/smoke.png",
     category: "Experience"
   },
   {
     title: "Selfie Booth",
     desc: "Creative and fun backdrops for your guests to capture their favorite moments.",
-    image: "/General/slide3.jpg",
+    image: "/Services/selfie.jpeg",
     category: "Interactive"
+  },
+  {
+    title:"Flowers Rangoli",
+    desc:"Special decorations and activities for your flowers rangoli to make it a unique and memorable event.",
+    image: "/Services/flowers_rangoli.jpeg",
+    category: "Decoration"
   },
   {
     title: "Baby Shower cradle",
     desc: "Special decorations and activities for your baby shower to make it a unique and memorable event.",
-       image: "/General/slide1.jpg",
+       image: "/Services/cradle2.jpeg",
     category: "Decoration"
   },
   {
     title:"Name Ceremony cradle",
     desc:"Special decorations and activities for your name ceremony to make it a unique and memorable event.",
-    image: "/General/slide2.jpg",
+    image: "/Services/cradle1.jpeg",
     category: "Decoration"
   },
   {
-    title:"Karpet Layout",
+    title:"Carpet Layout",
     desc:"Special decorations and activities for your karpet layout to make it a unique and memorable event.",
     image: "/General/slide3.jpg",
+    category: "Decoration"
+  },
+  {
+    title:"Haldi Decoration",
+    desc:"Special decorations and activities for your haldi to make it a unique and memorable event.",
+    image: "/Services/haldi.jpeg",
+    category: "Decoration"
+  },
+  {
+    title:"Caricature",
+    desc:"Special decorations and activities for your caricature to make it a unique and memorable event.",
+    image: "/Services/caricature1.jpeg",
     category: "Decoration"
   }
 ];
