@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 
 // Import images for the dynamic slideshow
-import HeroBG1 from "../../public/General/slide1.jpg";
-import HeroBG2 from "../../public/General/slide2.jpg";
-import HeroBG3 from "../../public/General/slide3.jpg";
-import HeroBG4 from "../../public/General/slide4.jpg";
-import HeroBG5 from "../../public/General/slide5.jpg";
+import HeroBG1 from "../../assets/General/slide1.jpg";
+import HeroBG2 from "../../assets/General/slide2.jpg";
+import HeroBG3 from "../../assets/General/slide3.jpg";
+import HeroBG4 from "../../assets/General/slide4.jpg";
+import HeroBG5 from "../../assets/General/slide5.jpg";
 import { Link } from "react-router-dom";
 
 const slides = [

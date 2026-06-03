@@ -44,19 +44,19 @@ function Journey() {
                   step: "01",
                   title: "Vision & Concept",
                   desc: "We start by understanding your dreams and sketching out a magical theme.",
-                  image: "/General/slide1.jpg"
+                  image: "../../assets/General/slide1.jpg"
                 },
                 {
                   step: "02",
                   title: "Artistic Creation",
                   desc: "Our team handcrafts every detail, from floral arrangements to custom lighting.",
-                  image: "/General/slide2.jpg"
+                  image: "../../assets/General/slide2.jpg"
                 },
                 {
                   step: "03",
                   title: "The Grand Reveal",
                   desc: "We bring it all together to create a breathtaking experience for your guests.",
-                  image: "/General/slide3.jpg"
+                  image: "../../assets/General/slide3.jpg"
                 }
               ].map((item, index) => (
                 <div 

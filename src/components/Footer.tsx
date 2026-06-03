@@ -7,7 +7,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "/public/logos/logo2.png";
+import Logo from "../../assets/logos/logo2.png";
 
 const Footer = () => {
   // Get current year dynamically for copyright

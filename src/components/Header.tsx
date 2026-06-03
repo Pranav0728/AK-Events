@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import Logo from "../../public/logos/logoHeader.png";
+import Logo from "../../assets/logos/logoHeader.png";
 
 const Header = () => {
   // State to track if the page is scrolled past threshold (50px)

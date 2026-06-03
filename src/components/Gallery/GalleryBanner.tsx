@@ -5,7 +5,7 @@ function GalleryBanner() {
   return (
     <section className="relative h-[88vh] min-h-[600px] w-full overflow-hidden mt-[82px]">
       <img
-        src="/General/slide1.jpg"
+        src="../../assets/General/slide1.jpg"
         alt="Luxury event setting"
         className="absolute inset-0 h-full w-full object-cover scale-105 animate-[fade-in_1.2s_ease-out]"
       />
