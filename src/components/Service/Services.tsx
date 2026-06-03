@@ -1,5 +1,4 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+
 import { Sparkles, Music, Star, Camera, PartyPopper, Wand2, Palette, Mic2 } from "lucide-react";
 
 const servicesList = [

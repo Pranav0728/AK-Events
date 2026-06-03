@@ -84,7 +84,7 @@ const Header = () => {
             })}
           </div>
 
-          {/* Mobile Menu Toggle Button - visible below md */}
+          {/* Mobile Menu Toggle Button - visible below md screens */}
           <button
             className="md:hidden p-2 focus:outline-none group"
             onClick={() => setIsMobileMenuOpen((prev) => !prev)}
