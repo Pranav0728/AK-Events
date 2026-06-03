@@ -1,15 +1,20 @@
 import { Sparkles, Heart, Star } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import img1 from "../assets/Gallery/img1.jpg";
+import img2 from "../assets/Gallery/img2.jpg";
+import img3 from "../assets/Gallery/img3.jpg";
+import img4 from "../assets/Gallery/img4.jpg";
+import img5 from "../assets/Gallery/img5.jpg";
+import img6 from "../assets/Gallery/img6.jpg";
 const Gallery = () => {
   // Define gallery images for AK Events with updated content
   const images = [
-    { url: "/General/slide1.jpg", alt: "Luxury Floral Wedding Arch", category: "Wedding Decor" },
-    { url: "/General/slide2.jpg", alt: "Grand Entrance Lighting", category: "Reception" },
-    { url: "/General/slide3.jpg", alt: "Theme Based Birthday Setup", category: "Birthday" },
-    { url: "/General/slide1.jpg", alt: "Traditional Haldi Ceremony", category: "Haldi/Sangeet" },
-    { url: "/General/slide2.jpg", alt: "Elegant Table Setting", category: "Engagement" },
-    { url: "/General/slide3.jpg", alt: "Custom Stage Backdrop", category: "Stage Design" },
+    { url: img1, alt: "Luxury Floral Wedding Arch", category: "Wedding Decor" },
+    { url: img2, alt: "Grand Entrance Lighting", category: "Reception" },
+    { url: img3, alt: "Theme Based Birthday Setup", category: "Birthday" },
+    { url: img4, alt: "Traditional Haldi Ceremony", category: "Haldi/Sangeet" },
+    { url: img5, alt: "Elegant Table Setting", category: "Engagement" },
+    { url: img6, alt: "Custom Stage Backdrop", category: "Stage Design" },
   ];
 
   return (

@@ -2,127 +2,155 @@ import { Sparkles, Heart, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Phone } from "lucide-react";
 
+import img1 from "../../assets/Gallery/img1.jpg";
+import img2 from "../../assets/Gallery/img2.jpg";
+import img3 from "../../assets/Gallery/img3.jpg";
+import img4 from "../../assets/Gallery/img4.jpg";
+import img5 from "../../assets/Gallery/img5.jpg";
+import img6 from "../../assets/Gallery/img6.jpg";
+import img7 from "../../assets/Gallery/img7.jpg";
+import img8 from "../../assets/Gallery/img8.jpg";
+import img9 from "../../assets/Gallery/img9.jpg";
+import img10 from "../../assets/Gallery/img10.jpg";
+import img11 from "../../assets/Gallery/img11.jpg";
+import img12 from "../../assets/Gallery/img12.jpg";
+import img13 from "../../assets/Gallery/img13.jpg";
+import img14 from "../../assets/Gallery/img14.jpg";
+import img15 from "../../assets/Gallery/img15.jpg";
+import img16 from "../../assets/Gallery/img16.jpg";
+import img17 from "../../assets/Gallery/img17.jpg"; 
+import img18 from "../../assets/Gallery/img18.jpg";
+import img19 from "../../assets/Gallery/img19.jpg";
+import img20 from "../../assets/Gallery/img20.jpg";
+import img21 from "../../assets/Gallery/img21.jpg";
+import img22 from "../../assets/Gallery/img22.jpg";
+import img23 from "../../assets/Gallery/img23.jpg";
+import img24 from "../../assets/Gallery/img24.jpg";
+import img25 from "../../assets/Gallery/img25.jpg";
+
+
+
 const GalleryPics = () => {
   // Define gallery images for AK Events with updated content
   const images = [
     {
-      url: "../../assets/Gallery/img1.jpg",
+      url: img1,
       alt: "Luxury Floral Wedding Arch",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img2.jpg",
+      url: img2,
       alt: "Grand Entrance Lighting",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img3.jpg",
+      url: img3,
       alt: "Theme Based Birthday Setup",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img4.jpg",
+      url: img4,
       alt: "Traditional Haldi Ceremony",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img5.jpg",
+      url: img5,
       alt: "Elegant Table Setting",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img6.jpg",
+      url: img6,
       alt: "Custom Stage Backdrop",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img7.jpg",
+      url: img7,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img8.jpg",
+      url: img8,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img9.jpg",
+      url: img9,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img10.jpg",
+      url: img10,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img11.jpg",
+      url: img11,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img12.jpg",
+      url: img12,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img13.jpg",
+      url: img13,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img14.jpg",
+      url: img14,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img15.jpg",
+      url: img15,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img16.jpg",
+      url: img16,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img17.jpg",
+      url: img17,
       alt: "Wedding Decor", 
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img18.jpg",
+      url: img18,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     
     {
-      url: "../../assets/Gallery/img20.jpg",
+      url: img20,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img21.jpg",
+      url: img21,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img22.jpg",
+      url: img22,
       alt: "Wedding Decor", 
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img23.jpg",
+      url: img23,
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img24.jpg",
+      url: img24,   
       alt: "Wedding Decor",
       category: "Birthday",
     },
     {
-      url: "../../assets/Gallery/img25.jpg",
+      url: img25,
       alt: "Wedding Decor",
       category: "Birthday",
     },

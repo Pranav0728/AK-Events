@@ -9,6 +9,7 @@ import {
   ArrowRight,
   PartyPopper,
 } from "lucide-react";
+import abouts from "../assets/General/slide2.jpg";
 
 const values = [
   {
@@ -46,7 +47,7 @@ function AboutUs() {
       {/* Hero Section */}
       <section className="relative h-[88vh] min-h-[600px] w-full overflow-hidden mt-[82px]">
         <img
-          src="/General/slide1.jpg"
+          src={abouts}
           alt="Luxury event setting"
           className="absolute inset-0 h-full w-full object-cover scale-105 animate-[fade-in_1.2s_ease-out]"
         />

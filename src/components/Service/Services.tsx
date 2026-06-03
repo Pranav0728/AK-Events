@@ -1,77 +1,93 @@
 
 import { Sparkles, Music, Star, Camera, PartyPopper, Wand2, Palette, Mic2 } from "lucide-react";
 
+import ring from "../../assets/Services/ring.jpg";
+import dj from "../../assets/Services/dj.jpeg";
+import lighting from "../../assets/Services/lighting.jpeg";
+import entry3 from "../../assets/Services/entry3.jpeg";
+import smoke from "../../assets/Services/smoke.png";
+import selfie from "../../assets/Services/selfie.jpeg";
+import flowers_rangoli from "../../assets/Services/flowers_rangoli.jpeg";
+import cradle2 from "../../assets/Services/cradle2.jpeg";
+import cradle1 from "../../assets/Services/cradle1.jpeg";
+import carpet_layout from "../../assets/Services/carpet_layout.jpg";
+import haldi from "../../assets/Services/haldi.jpeg";
+import caricature1 from "../../assets/Services/caricature1.jpeg";
+
+
+
+
 const servicesList = [
   {
     title: "Ring Decoration",
     desc: "Elegant and modern ring setups perfect for engagements and photo opportunities.",
-    image: "../../assets/Services/ring.jpg",
+    image: ring,
     category: "Decoration"
   },
   {
     title: "DJ Sound & Artist",
     desc: "Professional sound systems and talented artists to keep your party alive all night.",
-    image: "../../assets/Services/dj.jpeg",
+    image: dj,
     category: "Entertainment"
   },
   {
     title: "Cinematic Lighting",
     desc: "Custom LED and ambient lighting to set the perfect mood for your celebration.",
-    image: "../../assets/Services/lighting.jpeg",
+    image: lighting,
     category: "Atmosphere"
   },
   {
     title: "Grand Entry Gate",
     desc: "Beautifully designed welcome boards and entry gates that make a lasting first impression.",
-    image: "../../assets/Services/entry3.jpg",
+    image: entry3,
     category: "Decoration"
   },
   {
     title: "Special Entries",
     desc: "Make a statement with Smoke, Pyro, or Car entries for that magical touch.",
-    image: "../../assets/Services/smoke.png",
+    image: smoke,
     category: "Experience"
   },
   {
     title: "Selfie Booth",
     desc: "Creative and fun backdrops for your guests to capture their favorite moments.",
-    image: "../../assets/Services/selfie.jpeg",
+    image: selfie,
     category: "Interactive"
   },
   {
     title:"Flowers Rangoli",
     desc:"Special decorations and activities for your flowers rangoli to make it a unique and memorable event.",
-    image: "../../assets/Services/flowers_rangoli.jpeg",
+    image: flowers_rangoli,
     category: "Decoration"
   },
   {
     title: "Baby Shower cradle",
     desc: "Special decorations and activities for your baby shower to make it a unique and memorable event.",
-    image: "../../assets/Services/cradle2.jpeg",
+    image: cradle2,
     category: "Decoration"
   },
   {
     title:"Name Ceremony cradle",
     desc:"Special decorations and activities for your name ceremony to make it a unique and memorable event.",
-    image: "../../assets/Services/cradle1.jpeg",
+    image: cradle1,
     category: "Decoration"
   },
   {
     title:"Carpet Layout",
     desc:"Special decorations and activities for your karpet layout to make it a unique and memorable event.",
-    image: "../../assets/Services/carpet.jpeg", 
+    image: carpet_layout,
     category: "Decoration"
   },
   {
     title:"Haldi Decoration",
     desc:"Special decorations and activities for your haldi to make it a unique and memorable event.",
-    image: "../../assets/Services/haldi.jpeg",
+    image: haldi,
     category: "Decoration"
   },
   {
     title:"Caricature",
     desc:"Special decorations and activities for your caricature to make it a unique and memorable event.",
-    image: "../../assets/Services/caricature1.jpeg",
+    image: caricature1,
     category: "Decoration"
   }
 ];

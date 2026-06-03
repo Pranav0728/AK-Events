@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Phone, MapPin, Mail, Sparkles, MessageCircle, Clock, Star } from "lucide-react";
-
+import ContactBanner from "../assets/General/slide5.jpg";
 
 function ContactPage() {
   return (
@@ -11,7 +11,7 @@ function ContactPage() {
 
      <section className="relative h-[88vh] min-h-[600px] w-full overflow-hidden mt-[82px]">
         <img
-          src="/General/slide1.jpg"
+          src={ContactBanner}
           alt="Luxury event setting"
           className="absolute inset-0 h-full w-full object-cover scale-105 animate-[fade-in_1.2s_ease-out]"
         />

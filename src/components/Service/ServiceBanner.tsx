@@ -1,11 +1,12 @@
 import { Sparkles } from "lucide-react";
 import React from "react";
+import ServiceBr from "../../assets/General/slide3.jpg";
 
 function ServiceBanner() {
   return (
     <section className="relative h-[88vh] min-h-[600px] w-full overflow-hidden mt-[82px]">
       <img
-        src="/General/slide1.jpg"
+        src={ServiceBr}
         alt="Luxury event setting"
         className="absolute inset-0 h-full w-full object-cover scale-105 animate-[fade-in_1.2s_ease-out]"
       />
