@@ -26,8 +26,8 @@ const slides = [
   {
     image: HeroBG3,
     title: "Dream",
-    subtitle: "Engagements",
-    description: "Creating romantic engagement setups that make your special moment unforgettable."
+    subtitle: "Haldi",
+    description: "Creating setups that make your special moment unforgettable."
   },
   {
     image: HeroBG4,
@@ -116,32 +116,35 @@ const Hero = () => {
 
       {/* Main Content Container */}
       <div className="relative z-10 max-w-5xl mx-auto lg:mx-20 px-6 text-left">
-        {/* Dynamic Headline */}
-        <div className="mb-8 relative">
-          <h1 className="text-7xl md:text-9xl font-serif text-white mb-6 leading-[1.1] tracking-tight drop-shadow-2xl">
-            <span className="block animate-fade-in-up mix-blend-lighten opacity-95" style={{ animationDelay: '200ms' }}>
-              {slides[currentSlide].title}
-            </span>
-            <span className="relative inline-block animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <span className="bg-gradient-to-r from-violet-400 via-white to-violet-400 bg-[length:200%_auto] bg-clip-text text-transparent italic animate-glow drop-shadow-[0_0_20px_rgba(167,139,250,0.5)]">
-                {slides[currentSlide].subtitle}
+        {/* Fixed height container for text to prevent layout shift */}
+        <div className="min-h-[450px] md:min-h-[550px] flex flex-col justify-center">
+          {/* Dynamic Headline */}
+          <div className="mb-8 relative">
+            <h1 className="text-7xl md:text-9xl font-serif text-white mb-6 leading-[1.1] tracking-tight drop-shadow-2xl">
+              <span className="block animate-fade-in-up mix-blend-lighten opacity-95" style={{ animationDelay: '200ms' }}>
+                {slides[currentSlide].title}
               </span>
-              <Sparkles className="absolute -top-8 -right-12 h-10 w-10 text-violet-300 animate-pulse hidden md:block" />
-            </span>
-          </h1>
+              <span className="relative inline-block animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+                <span className="bg-gradient-to-r from-violet-400 via-white to-violet-400 bg-[length:200%_auto] bg-clip-text text-transparent italic animate-glow drop-shadow-[0_0_20px_rgba(167,139,250,0.5)]">
+                  {slides[currentSlide].subtitle}
+                </span>
+                <Sparkles className="absolute -top-8 -right-12 h-10 w-10 text-violet-300 animate-pulse hidden md:block" />
+              </span>
+            </h1>
+          </div>
+
+          {/* Dynamic Subheadline */}
+          <p className="text-xl md:text-2xl text-violet-100/80 mb-12 max-w-2xl mx-0 leading-relaxed font-light animate-fade-in-up backdrop-blur-[2px] py-1 border-l-2 border-violet-500/30 pl-6" style={{ animationDelay: '600ms' }}>
+            {slides[currentSlide].description}
+          </p>
         </div>
 
-        {/* Dynamic Subheadline */}
-        <p className="text-xl md:text-2xl text-violet-100/80 mb-12 max-w-2xl mx-0 leading-relaxed font-light animate-fade-in-up backdrop-blur-[2px] py-1 border-l-2 border-violet-500/30 pl-6" style={{ animationDelay: '600ms' }}>
-          {slides[currentSlide].description}
-        </p>
-
         {/* Call to Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-8 justify-start items-center animate-fade-in-up" style={{ animationDelay: '800ms' }}>
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 justify-start items-stretch sm:items-center  animate-fade-in-up" style={{ animationDelay: '800ms' }}>
           <Link
             to="/services"
-            className="relative group overflow-hidden bg-violet-600 hover:bg-violet-700 text-white px-12 py-4 text-xl font-semibold rounded-full shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all duration-500 transform hover:-translate-y-2"
-            aria-label="Book Here"
+            className="relative group overflow-hidden bg-violet-600 hover:bg-violet-700 text-white px-10 py-4 text-lg sm:text-xl font-bold rounded-full shadow-[0_10px_30px_-10px_rgba(124,58,237,0.5)] transition-all duration-500 transform hover:-translate-y-2 flex items-center justify-center gap-2"
+            aria-label="View Services"
           >
             <span className="relative z-10 flex items-center gap-2">
               View Services
@@ -149,16 +152,20 @@ const Hero = () => {
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer" />
           </Link>
-          <a  className="relative group overflow-hidden bg-violet-600 hover:bg-violet-700 text-white px-12 py-4 text-xl font-semibold rounded-full shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all duration-500 transform hover:-translate-y-2"
-          href="tel:9594315750" target="_blank" rel="noopener noreferrer">
+          <a 
+            href="tel:9594315750" 
+            className="relative group overflow-hidden bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-10 py-4 text-lg sm:text-xl font-bold rounded-full shadow-[0_10px_30px_-10px_rgba(255,255,255,0.1)] transition-all duration-500 transform hover:-translate-y-2 flex items-center justify-center gap-2"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <span className="relative z-10 flex items-center gap-2">
-                <Phone className="h-5 w-5" />
+              <Phone className="h-5 w-5" />
               Call - 9594315750
             </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
           </a>
         </div>
-        </div>
+      </div>
 
       {/* Slide Indicators - Moved outside text container to stay centered on screen */}
       <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex gap-3 z-20">
