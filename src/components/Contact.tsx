@@ -1,8 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Mail, Sparkles, MessageCircle, Clock, Star } from "lucide-react";
-import ContactImage from "/public/General/slide1.jpg";
 
 
 function ContactPage() {
