@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Phone } from "lucide-react";
 
 // Import images for the dynamic slideshow
 import HeroBG1 from "../assets/General/slide1.jpg";
@@ -149,6 +149,14 @@ const Hero = () => {
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer" />
           </Link>
+          <a  className="relative group overflow-hidden bg-violet-600 hover:bg-violet-700 text-white px-12 py-4 text-xl font-semibold rounded-full shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all duration-500 transform hover:-translate-y-2"
+          href="tel:9594315750" target="_blank" rel="noopener noreferrer">
+            <span className="relative z-10 flex items-center gap-2">
+                <Phone className="h-5 w-5" />
+              Call - 9594315750
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer" />
+          </a>
         </div>
         </div>
 

@@ -8,6 +8,7 @@ import ContactPage from "./components/Contact";
 import ServicePage from "./pages/ServicePage";
 import GalleryPage from "./pages/GalleryPage";
 import Testimonial from "./pages/Testimonial";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Initialize React Query client for data fetching and caching
 const queryClient = new QueryClient();
@@ -19,6 +20,7 @@ const App = () => (
     <TooltipProvider>
       {/* Routing provider for client-side navigation */}
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           {/* Home page route */}
           <Route path="/" element={<Index />} />
