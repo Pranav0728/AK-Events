@@ -5,6 +5,7 @@ import {
   Instagram,
   Sparkles,
   MessageCircle,
+  Heart,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../assets/logos/logo2tp.png";
@@ -50,7 +51,8 @@ const Footer = () => {
               />
             </div>
             <p className="text-violet-200/60 leading-relaxed mb-8 text-lg font-light">
-              Crafting magical celebrations and unforgettable memories with our signature premium decorations and event planning.
+              Crafting magical celebrations and unforgettable memories with our
+              signature premium decorations and event planning.
             </p>
 
             {/* Social Media Links */}
@@ -96,10 +98,15 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-xl font-serif font-medium mb-8 text-white">Services</h4>
+            <h4 className="text-xl font-serif font-medium mb-8 text-white">
+              Services
+            </h4>
             <ul className="space-y-4">
               {services.map((service) => (
-                <li key={service} className="text-violet-200/60 hover:text-violet-300 transition-colors flex items-center group cursor-default">
+                <li
+                  key={service}
+                  className="text-violet-200/60 hover:text-violet-300 transition-colors flex items-center group cursor-default"
+                >
                   <span className="w-1.5 h-1.5 rounded-full bg-violet-600 mr-3 scale-0 group-hover:scale-100 transition-transform duration-300" />
                   {service}
                 </li>
@@ -109,7 +116,9 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-xl font-serif font-medium mb-8 text-white">Get in Touch</h4>
+            <h4 className="text-xl font-serif font-medium mb-8 text-white">
+              Get in Touch
+            </h4>
             <div className="space-y-6">
               {/* Phone */}
               <div className="flex items-start group">
@@ -117,8 +126,13 @@ const Footer = () => {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-violet-400 mb-1">Call Us</p>
-                  <a href="tel:+919594315750" className="text-violet-100 hover:text-violet-300 transition-colors font-medium">
+                  <p className="text-xs uppercase tracking-widest text-violet-400 mb-1">
+                    Call Us
+                  </p>
+                  <a
+                    href="tel:+919594315750"
+                    className="text-violet-100 hover:text-violet-300 transition-colors font-medium"
+                  >
                     +91 95943 15750
                   </a>
                 </div>
@@ -143,10 +157,14 @@ const Footer = () => {
                   <MapPin className="w-4 h-4" />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-violet-400 mb-1">Visit Us</p>
+                  <p className="text-xs uppercase tracking-widest text-violet-400 mb-1">
+                    Visit Us
+                  </p>
                   <address className="not-italic text-violet-100 leading-relaxed font-medium">
-                    C-107, Mathadi Tower,<br />
-                    Sector 09, Ghansoli West,<br />
+                    C-107, Mathadi Tower,
+                    <br />
+                    Sector 09, Ghansoli West,
+                    <br />
                     Navi Mumbai 400701
                   </address>
                 </div>
@@ -157,9 +175,24 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-violet-800/30 mt-20 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-violet-400/50 text-sm tracking-wide">
-            © {currentYear} <span className="text-violet-300 font-medium">AK Events</span>. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center md:items-start gap-2">
+            <p className="text-violet-400/50 text-sm tracking-wide">
+              © {currentYear}{" "}
+              <span className="text-violet-300 font-medium">AK Events</span>.
+              All rights reserved.
+            </p>
+            <p className="text-violet-400/60 text-xs tracking-[0.15em] uppercase flex items-center gap-1.5 mt-2">
+              Designed with
+              <Heart className="w-3.5 h-3.5 fill-violet-500 text-violet-500" />
+              by
+              <a
+                href="tel:8591964968" 
+                rel="noopener noreferrer"
+                className="text-violet-300 hover:text-white transition-colors font-medium"
+              >
+                Pranav Molawade • 8591964968</a>
+            </p>
+          </div>
           {/* <div className="flex space-x-8">
             <a href="#" className="text-violet-400/50 hover:text-violet-300 text-sm transition-colors tracking-widest uppercase">
               Privacy Policy
@@ -167,7 +200,7 @@ const Footer = () => {
             <a href="#" className="text-violet-400/50 hover:text-violet-300 text-sm transition-colors tracking-widest uppercase">
               Terms of Service
             </a>
-          </div> */}
+          </div>  */}
         </div>
       </div>
     </footer>
